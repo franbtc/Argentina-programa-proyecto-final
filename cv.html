@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae, Argentina Programa 4.0</title>
+    <link rel="stylesheet" href="css/cv-estilos.css">
+    <link rel="icon" href="logos/file-regular.svg"
+</head>
+<body>
+    <section>
+    <img id="foto-perfil" src="https://randomuser.me/api/portraits/women/62.jpg" alt="foto de cv">
+    <div class="Información-personal">
+        <h2 id="info">Información personal</h2> 
+        <button id="boton">Mostrar/ocultar información personal</button>
+
+        <ul class="datos" id="lista" style="display: none;">
+          <li>Nombre: Zoe Hudson</li>
+          <li>Dirección: Avenida Siempre Viva 742</li>
+          <li>Teléfono: (+54) 9-11-468582</li>
+          <li>Correo electrónico: zoe.hudson@example.com</li>
+        </ul>
+        
+        <script>
+        document.getElementById("boton").addEventListener("click", function(){
+          var lista = document.getElementById("lista");
+          if (lista.style.display === "none") {
+            lista.style.display = "block";
+          } else {
+            lista.style.display = "none";
+          }
+        });
+        </script>        
+    </div>
+    </section>
+    <hr class="divisores">
+    <div class="Información">
+    <h2>Experiencia laboral</h2>
+    <h3>Administracion en fabrica de yerba Playadito</h3>
+        <p>Toma de decisiones estratégicas y operativas que permitan alcanzar los objetivos de la empresa y maximizar su rendimiento en áreas como finanzas, marketing, recursos humanos, producción, entre otras.</p>
+    <h3>Graphic Designer en Mercado libre</h3>
+        <p>Encargada de la creación y producción de piezas gráficas para diferentes medios, como anuncios publicitarios, packaging, cartelería, diseño web, entre otros. </p>
+    </div>
+    <hr class="divisores">
+    <div class="Información">
+    <h2>Estudios</h2>
+    <h3>Licenciatura en Admistracion de Empresas</h3>
+        <p>Universidad de Buenos Aires 2008-2012</p>
+    <h3>Licenciatura en Diseño Gráfico</h3>
+        <p> Universidad Argentina de la Empresa 2011-2014 </p>
+    </div>
+    <hr class="divisores">
+    <div class="Información">
+    <h2>Habilidades</h2>
+        <ul>
+            <li>Organizacion</li>
+            <li>Responsabilidad</li>
+            <li>Puntualidad</li>
+        </ul>
+        <ul>
+            <li>Manejo de pack office</li>
+            <li>Manejo de pack adobe</li>
+            <li>Liderasgo</li>
+        </ul>
+    </div>
+</html>

@@ -1,0 +1,63 @@
+body{
+    padding: 10px;
+    margin: auto;
+    background-image: url(fondo-css-cv.jpg);
+    background-size: cover;
+}
+section{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    padding-top: 15px;
+}
+#foto-perfil{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 80px;
+    text-align: left;
+}
+.Información-personal{
+    margin-right: 120px;
+    display: inline-block;
+    max-width: 800px;
+}
+#info{
+    text-align: left;
+}
+.datos{
+    padding-left: 15px;
+}
+.divisores{
+    background-color: white;
+    width: 840px;
+    margin-bottom: unset;
+    margin-top: unset;
+}
+.Información{
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+}
+ul{
+    margin-bottom: unset;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+p{
+    margin: 0%;
+    font-size: 15px;
+}
+h2{
+    margin: 5px;
+}
+h3{
+    margin: 10px;
+}
+#boton{
+    border-radius: 10px;
+    border-color: #24303c;
+}
